@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" type="text/css" href="app2.css">
+</head>
+<body>
+    <div class="box">
+        <div id="screen">
+            <div id="image">
+                <img src="music/girl.png" alt="" id="gi">
+            </div>
+            <div class="content">
+                <div class="one">
+                    <h2> My R&B Songs</h2>
+                    <img src="music/Button.png" alt="" id="btn">
+                </div>
+                <img src="music/divider.png" alt="">
+                <div class="two">
+                    <h3 id="textOne">Top songs</h3>
+                    <h4 id="textTwo">See All</h4>
+                </div>
+                <img src="music/divider.png " alt="" class="divider">
+                <div id="songs">
+                    <ul></ul>
+            </div>
+            <div class="footer">
+                <audio src="" id="maintrack"></audio>
+               <div class="current">
+                   <div class="currentsong">
+                    <div class="currentpic">
+                        <img src="images/rose.jpg" alt="" id="pic">
+                    </div>
+                    <div class="currentname" id="mname">Lucky</div>
+                </div>
+                <div class="currentsym">
+                    <div class="cbtn">
+                        <img src="music/backward.png" alt="" id="prev">
+                    </div>
+                    <div class="cbtn" id="playr" >
+                            <img src="music/Play.png" alt="" id="play" class="faplay" >
+                            <!-- <img src="music/pause.png " alt=""  id="pause" class="fapause"> -->
+                    </div>
+                    <div class="cbtn" id="">
+                        <img src="music/Forward.png" alt="" id="fd">
+                    </div>
+               </div>
+                </div>
+                <img src="music/divider.png" alt="">
+                <div class="opt">
+                    <img src="music/Library.png" alt="">
+                    <img src="music/Search.png" alt="">
+                    <img src="music/For You.png" alt="">
+                    <img src="music/Radio.png" alt="">
+                    <img src="music/Browse.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="songs.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
