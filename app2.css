@@ -1,0 +1,199 @@
+*{
+    border: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    display: grid;
+    place-items: center;
+    margin: 2px auto;
+    min-height: 100vh;
+    background: rgba(178, 143, 143, 0.854);
+ }
+.box{
+    height:740px;
+    width: 375px;
+}
+
+#screen{
+    width: 375px;
+    border-radius: 15px;
+    background: grey;
+}
+#image{
+    top: 0px;
+    width: 375px;
+    height: 220px;
+}
+.content{
+    background: white;
+    display: flex;
+    flex-direction: column;
+    padding: 2px;
+    height: 555px;
+}
+.one{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    margin: 5px;
+    height: 40px;
+}
+#btn{
+    width: 20px;
+    height: 20px;
+}
+.divider{
+    width: 375px;
+    height: 0.5px;
+    z-index: 1;
+
+}
+.two{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30px;
+    margin: 5px;
+    padding: 5px;
+}
+#textTwo{
+    color: #ff2d55
+   
+}
+#songs{
+    overflow-y:scroll;
+    display: flex;
+    flex-direction: column;
+    width: 375px;
+    align-items: center;
+    margin: 1px;
+    padding: 5px;
+}
+#songs::-webkit-scrollbar{
+    display: none;
+}
+.songcontent{
+    margin: 5px;
+    padding: 5px;
+    width: 375px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+.wrap{
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    padding: 5px;
+}
+.pic{
+    width: 40px;
+    height: 40px;
+    background:grey;
+    border-radius: 2px;
+}
+.actpic{
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+}
+.songdet{
+   margin-left: 16px;
+   /* color: gray; */
+}
+.sur{
+    color: #8c8c8c;
+}
+.plus{
+    margin: 10px;
+    height: 10px;
+    width: 10px;
+    justify-content: flex-end;
+}
+ul li.playing{
+    color: #ff2d55;
+
+}
+ul li:hover{
+    background: #e3b0b9;
+
+}
+.footer{
+    background: #e5e5e5;
+    /* position: absolute; */
+    width: 375px;
+    height: 150px;
+    
+}
+.current{
+    width: 375px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.currentsong{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2px;
+    padding: 10px;
+}
+.currentpic{
+    border-radius: 5px;
+    height: 50px;
+    width: 50px;
+    background: black;
+    position: relative;
+    top: 6px;
+}
+#pic{
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.currentname{
+    margin-left: 16px;
+    position: relative;
+    top: 7px;
+}
+.currentsym{
+    margin: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+.cbtn{
+    height: 40px;
+    width: 40px;
+    padding: 8px;
+    margin: 5px 5px 0 5px;
+    cursor: pointer;
+}
+#playr{
+    position: relative;
+    bottom: 5px;
+    left: 5px;
+    /* border-radius: 50%;
+    background: red; */
+}
+
+/* #pause{
+    color: #434343;
+    position: relative;
+    bottom: 5px;
+    right: 10px;
+    height: 20px;
+    width: 20px;
+} */
+.opt{
+    width: 375px;
+    display: flex;
+    margin: 2px;
+
+}
